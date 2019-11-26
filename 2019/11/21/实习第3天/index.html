@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="实习日记," />
 
 
 
@@ -79,14 +79,15 @@
 
 
 
-<meta name="description" content="查询” 01 “课程比” 02 “课程成绩高的学生的信息及课程分数 查询同时存在” 01 “课程和” 02 “课程的情况 查询存在” 01 “课程但可能不存在” 02 “课程的情况(不存在时显示为 null ) 查询不存在” 01 “课程但存在” 02 “课程的情况 查询平均成绩大于等于 60 分的同学的学生编号和学生姓名和平均成绩 查询在 SC 表存在成绩的学生信息 查询所有同学的学生编号、学">
+<meta name="description" content="下载power designer,初步认识数据模型。 LDM：逻辑数据模型 打开ldm文件后，文件中有主题域和子域  SQL练习50题。 练习 插入中文字符串报错 12mysql&amp;gt; insert into Student values(&amp;apos;01&amp;apos; , &amp;apos;赵雷&amp;apos; , &amp;apos;1990-01-01&amp;apos; , &amp;apos;男&amp;apos;);ERROR 1366 (HY000): Incorrect string value:">
+<meta name="keywords" content="实习日记">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SQL练习50题">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;21&#x2F;SQL%E7%BB%83%E4%B9%A050%E9%A2%98&#x2F;index.html">
+<meta property="og:title" content="实习第3天">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;21&#x2F;%E5%AE%9E%E4%B9%A0%E7%AC%AC3%E5%A4%A9&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="查询” 01 “课程比” 02 “课程成绩高的学生的信息及课程分数 查询同时存在” 01 “课程和” 02 “课程的情况 查询存在” 01 “课程但可能不存在” 02 “课程的情况(不存在时显示为 null ) 查询不存在” 01 “课程但存在” 02 “课程的情况 查询平均成绩大于等于 60 分的同学的学生编号和学生姓名和平均成绩 查询在 SC 表存在成绩的学生信息 查询所有同学的学生编号、学">
+<meta property="og:description" content="下载power designer,初步认识数据模型。 LDM：逻辑数据模型 打开ldm文件后，文件中有主题域和子域  SQL练习50题。 练习 插入中文字符串报错 12mysql&amp;gt; insert into Student values(&amp;apos;01&amp;apos; , &amp;apos;赵雷&amp;apos; , &amp;apos;1990-01-01&amp;apos; , &amp;apos;男&amp;apos;);ERROR 1366 (HY000): Incorrect string value:">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-11-21T10:09:23.037Z">
+<meta property="og:updated_time" content="2019-11-22T01:13:04.737Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -117,13 +118,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2019/11/21/SQL练习50题/"/>
+  <link rel="canonical" href="http://yoursite.com/2019/11/21/实习第3天/"/>
 
 
 
 
 
-  <title>SQL练习50题 | Hexo</title>
+  <title>实习第3天 | Hexo</title>
   
 
 
@@ -260,7 +261,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/21/SQL%E7%BB%83%E4%B9%A050%E9%A2%98/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/21/%E5%AE%9E%E4%B9%A0%E7%AC%AC3%E5%A4%A9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Selah">
@@ -277,7 +278,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">SQL练习50题</h1>
+          <h1 class="post-title" itemprop="name headline">实习第3天</h1>
         
 
         <div class="post-meta">
@@ -289,7 +290,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-21T16:36:51+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-11-21T17:36:51+08:00">
                 2019-11-21
               </time>
             
@@ -328,56 +329,37 @@
 
       
         <ol>
-<li>查询” 01 “课程比” 02 “课程成绩高的学生的信息及课程分数</li>
-<li>查询同时存在” 01 “课程和” 02 “课程的情况</li>
-<li>查询存在” 01 “课程但可能不存在” 02 “课程的情况(不存在时显示为 null )</li>
-<li>查询不存在” 01 “课程但存在” 02 “课程的情况</li>
-<li>查询平均成绩大于等于 60 分的同学的学生编号和学生姓名和平均成绩</li>
-<li>查询在 SC 表存在成绩的学生信息</li>
-<li>查询所有同学的学生编号、学生姓名、选课总数、所有课程的总成绩(没成绩的显示为 null )</li>
-<li>查有成绩的学生信息</li>
-<li>查询「李」姓老师的数量</li>
-<li>查询学过「张三」老师授课的同学的信息</li>
-<li>查询没有学全所有课程的同学的信息</li>
-<li>查询至少有一门课与学号为” 01 “的同学所学相同的同学的信息</li>
-<li>查询和” 01 “号的同学学习的课程 完全相同的其他同学的信息</li>
-<li>查询没学过”张三”老师讲授的任一门课程的学生姓名</li>
-<li>查询两门及其以上不及格课程的同学的学号，姓名及其平均成绩</li>
-<li>检索” 01 “课程分数小于 60，按分数降序排列的学生信息</li>
-<li>按平均成绩从高到低显示所有学生的所有课程的成绩以及平均成绩</li>
-<li>查询各科成绩最高分、最低分和平均分：<br>以如下形式显示：课程 ID，课程 name，最高分，最低分，平均分，及格率，中等率，优良率，优秀率<br>及格为&gt;=60，中等为：70-80，优良为：80-90，优秀为：&gt;=90</li>
-<li>要求输出课程号和选修人数，查询结果按人数降序排列，若人数相同，按课程号升序排列</li>
-<li>按各科成绩进行排序，并显示排名， Score 重复时保留名次空缺<br>15.1 按各科成绩进行排序，并显示排名， Score 重复时合并名次</li>
-<li>查询学生的总成绩，并进行排名，总分重复时保留名次空缺<br>16.1 查询学生的总成绩，并进行排名，总分重复时不保留名次空缺</li>
-<li>统计各科成绩各分数段人数：课程编号，课程名称，[100-85]，[85-70]，[70-60]，[60-0] 及所占百分比</li>
-<li>查询各科成绩前三名的记录</li>
-<li>查询每门课程被选修的学生数</li>
-<li>查询出只选修两门课程的学生学号和姓名</li>
-<li>查询男生、女生人数</li>
-<li>查询名字中含有「风」字的学生信息</li>
-<li>查询同名同性学生名单，并统计同名人数</li>
-<li>查询 1990 年出生的学生名单</li>
-<li>查询每门课程的平均成绩，结果按平均成绩降序排列，平均成绩相同时，按课程编号升序排列</li>
-<li>查询平均成绩大于等于 85 的所有学生的学号、姓名和平均成绩</li>
-<li>查询课程名称为「数学」，且分数低于 60 的学生姓名和分数</li>
-<li>查询所有学生的课程及分数情况（存在学生没成绩，没选课的情况）</li>
-<li>查询任何一门课程成绩在 70 分以上的姓名、课程名称和分数</li>
-<li>查询不及格的课程</li>
-<li>查询课程编号为 01 且课程成绩在 80 分以上的学生的学号和姓名</li>
-<li>求每门课程的学生人数</li>
-<li>成绩不重复，查询选修「张三」老师所授课程的学生中，成绩最高的学生信息及其成绩</li>
-<li>成绩有重复的情况下，查询选修「张三」老师所授课程的学生中，成绩最高的学生信息及其成绩</li>
-<li>查询不同课程成绩相同的学生的学生编号、课程编号、学生成绩</li>
-<li>查询每门功成绩最好的前两名</li>
-<li>统计每门课程的学生选修人数（超过 5 人的课程才统计）。</li>
-<li>检索至少选修两门课程的学生学号</li>
-<li>查询选修了全部课程的学生信息</li>
-<li>查询各学生的年龄，只按年份来算</li>
-<li>按照出生日期来算，当前月日 &lt; 出生年月的月日则，年龄减一</li>
-<li>查询本周过生日的学生</li>
-<li>查询下周过生日的学生</li>
-<li>查询本月过生日的学生</li>
-<li>查询下月过生日的学生</li>
+<li><p>下载power designer,初步认识数据模型。</p>
+<p>LDM：逻辑数据模型</p>
+<p>打开ldm文件后，文件中有主题域和子域</p>
+</li>
+<li><p><a href=".">SQL练习50题</a>。</p>
+<p><a href="https://www.cnblogs.com/pythonzwd/p/10820151.html" target="_blank" rel="noopener">练习</a></p>
+<p>插入中文字符串报错</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; insert into Student values('01' , '赵雷' , '1990-01-01' , '男');</span><br><span class="line">ERROR 1366 (HY000): Incorrect string value: '\xE8\xB5\xB5\xE9\x9B\xB7' for column 'Sname' at row 1</span><br></pre></td></tr></table></figure>
+
+<p>查看编码，发现表的编码为latin1</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; show create table Student;</span><br><span class="line">+<span class="comment">---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+</span></span><br><span class="line">| Table   | <span class="keyword">Create</span> <span class="keyword">Table</span>                                                                                                                                                                                            |</span><br><span class="line">+<span class="comment">---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+</span></span><br><span class="line">| Student | <span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="string">`Student`</span> (</span><br><span class="line">  <span class="string">`SId`</span> <span class="built_in">varchar</span>(<span class="number">10</span>) <span class="keyword">DEFAULT</span> <span class="literal">NULL</span>,</span><br><span class="line">  <span class="string">`Sname`</span> <span class="built_in">varchar</span>(<span class="number">10</span>) <span class="keyword">DEFAULT</span> <span class="literal">NULL</span>,</span><br><span class="line">  <span class="string">`Sage`</span> datetime <span class="keyword">DEFAULT</span> <span class="literal">NULL</span>,</span><br><span class="line">  <span class="string">`Ssex`</span> <span class="built_in">varchar</span>(<span class="number">10</span>) <span class="keyword">DEFAULT</span> <span class="literal">NULL</span></span><br><span class="line">) <span class="keyword">ENGINE</span>=<span class="keyword">InnoDB</span> <span class="keyword">DEFAULT</span> <span class="keyword">CHARSET</span>=latin1 |</span><br><span class="line">+<span class="comment">---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+</span></span><br><span class="line"><span class="number">1</span> <span class="keyword">row</span> <span class="keyword">in</span> <span class="keyword">set</span> (<span class="number">0.00</span> sec)</span><br></pre></td></tr></table></figure>
+
+<p>修改数据库编码</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; alter table Student default character set utf8;</span><br></pre></td></tr></table></figure>
+
+<p>重新插入，依然报错</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; insert into Student values('01' , '赵雷' , '1990-01-01' , '男');</span><br><span class="line">ERROR 1366 (HY000): Incorrect string value: '\xE8\xB5\xB5\xE9\x9B\xB7' for column 'Sname' at row 1</span><br></pre></td></tr></table></figure>
+
+<p>查看编码，发现列的编码依旧是latin1</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; show create table Student;</span><br><span class="line">+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+</span><br><span class="line">| Table   | Create Table                                                                                                                                                                                                                                                         |</span><br><span class="line">+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+</span><br><span class="line">| Student | CREATE TABLE `Student` (</span><br><span class="line">  `SId` varchar(10) CHARACTER SET latin1 DEFAULT NULL,</span><br><span class="line">  `Sname` varchar(10) CHARACTER SET latin1 DEFAULT NULL,</span><br><span class="line">  `Sage` datetime DEFAULT NULL,</span><br><span class="line">  `Ssex` varchar(10) CHARACTER SET latin1 DEFAULT NULL</span><br><span class="line">) ENGINE=InnoDB DEFAULT CHARSET=utf8 |</span><br><span class="line">+---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+</span><br><span class="line">1 row in set (0.00 sec)</span><br></pre></td></tr></table></figure>
+
+<p>手动修改列编码</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; alter table Student change SId SId varchar(10) character set utf8;</span><br><span class="line">mysql&gt; alter table Student change Sname Sname varchar(10) character set utf8;</span><br><span class="line">mysql&gt; alter table Student change Ssex Ssex varchar(10) character set utf8;</span><br></pre></td></tr></table></figure>
+
+<p>插入成功</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">mysql&gt; insert into Student values('01' , '赵雷' , '1990-01-01' , '男');</span><br><span class="line">Query OK, 1 row affected (0.03 sec)</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>整理聚合，窗口，分组函数。</p>
+</li>
+<li><p>整理PL/SQL语法。</p>
+</li>
 </ol>
 
       
@@ -394,6 +376,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/%E5%AE%9E%E4%B9%A0%E6%97%A5%E8%AE%B0/" rel="tag"># 实习日记</a>
+          
+        </div>
+      
 
       
       
@@ -403,8 +391,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/11/20/%E5%AE%9E%E4%B9%A0%E7%AC%AC2%E5%A4%A9/" rel="next" title="实习第2天">
-                <i class="fa fa-chevron-left"></i> 实习第2天
+              <a href="/2019/11/21/SQL%E7%BB%83%E4%B9%A050%E9%A2%98/" rel="next" title="SQL练习50题">
+                <i class="fa fa-chevron-left"></i> SQL练习50题
               </a>
             
           </div>
@@ -413,8 +401,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/11/21/%E5%AE%9E%E4%B9%A0%E7%AC%AC3%E5%A4%A9/" rel="prev" title="实习第3天">
-                实习第3天 <i class="fa fa-chevron-right"></i>
+              <a href="/2019/11/22/%E5%AE%9E%E4%B9%A0%E7%AC%AC4%E5%A4%A9/" rel="prev" title="实习第4天">
+                实习第4天 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
